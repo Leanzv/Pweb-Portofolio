@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10rem;
+    padding: 100px 15%;
+    background-color: var(--second-bg-color);
+    color: var(text-color);
+}
+
+.about-content{
+    max-width: 600px;
+}
+
+.about-content .title{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
+}
+
+.about-content p{
+    font-size: 1.7rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+}
